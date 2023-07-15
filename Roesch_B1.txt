@@ -1,0 +1,13 @@
+# Rösch Florian 
+# Aufgabe 1
+
+# 1.
+"#!" Dieses Zeichen zeigt einem Unix OS, welchen Interpreter es für eine Skriptdatei nehmen soll.
+Es beinhaltet auch den Pfrad zum nötigen Interpreter z.B. "#!/bin/bash".
+
+# 2.
+"#!" ist eine magic Number die dem OS zeit, dass es sich um ein Shell-Skipt handelt.
+Im Bezug auf Bash heißt dieses Zeichen 0x2321.
+
+# 3.
+Das Zeichen heißt allgemein Shebang und kann bei Skriptsprachen unter Unix eingetzt werden.
