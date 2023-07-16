@@ -3,6 +3,12 @@
 #Author: Rösch Florian
 #Name: B.3 Hauptspeicher
 #Date:07.14.2023 (m.d.y)
+# In Teilaufgabe 1 the srcipt outputs the free ram 
+# In Teilaufgabe 2 the srcipt outputs the free ram but with the use of a function call
+# In Teilaufgabe 3 the srcipt sorts your  system in a categorie depending on the size of 
+# your ram 
+
+
 
 echo "Teilaufgabe 1"
 free -g | awk '/Mem:/{print $2}'

@@ -1,0 +1,150 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Kafka;Franz;;
+FN:Franz Kafka
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Einstein;Albert;;Prof. Dr.
+FN:Prof. Dr. Albert Einstein
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Martin;Stephen
+TEL;HOME;VOICE:+1 (210) 555-1357
+TEL;HOME;FAX:+1 (210) 555-0864
+ADR;WORK;PARCEL;POSTAL;DOM:123 Cliff Ave.;Big Town;CA;97531
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Smith;John;M.;Mr.;Esq.
+FN:John M. Smith
+TEL;WORK;VOICE;MSG:+1 (919) 555-1234
+TEL;WORK;FAX:+1 (919) 555-9876
+ADR;WORK;PARCEL;POSTAL;DOM:Suite 101;1 Central St.;Any Town;NC;27654
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Meyer;Hans;Werner;;
+FN:Hans W. Meyer
+TEL;WORK;VOICE;MSG:+49 (911) 5880-0
+ADR;WORK;PARCEL;POSTAL:EFI;Kesslerplatz;Nürnberg;Bayern;90421
+END:VCARD
+VERSION:2.1
+N:Mueller;Jack;D.;Mr.;Esq.
+FN:Jack D. Mueller
+TEL;WORK;VOICE;MSG:+1 (919) 555-1234
+TEL;CELL:+1 (919) 554-6758
+TEL;WORK;FAX:+1 (919) 555-9876
+PHOTO;GIF;MIME:<JOHNSMITH.part3.960129T083020.xyzMail@host3.com>
+ADR;WORK;PARCEL;POSTAL;DOM:Suite 101;1 Central St.;Any Town;NC;27654
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Doe;John;;;
+FN:John Doe
+ORG:Example.com Inc.;
+TITLE:Imaginary tes+t person
+EMAIL;type=INTERNET;type=WORK;type=pref:johnDoe@example.org
+TEL;type=WORK;type=pref:+1 617 555 1212
+TEL;type=WORK:+1 (617) 555-1234
+TEL;type=CELL:+1 781 555 1212
+TEL;type=HOME:+1 202 555 1212
+item1.ADR;type=WORK:;;2 Enterprise Avenue;Worktown;NY;01111;USA
+item1.X-ABADR:us
+item2.ADR;type=HOME;type=pref:;;3 Acacia Avenue;Hoemtown;MA;02222;USA (United Sates)
+item2.X-ABADR:us
+NOTE:John Doe has a long and varied history\, being documented on more police files that anyone else. Reports of his death are alas numerous.
+item3.URL;type=pref:http\://www.example/com/doe
+item3.X-ABLabel:_$!<HomePage>!$_
+item4.URL:http\://www.example.com/Joe/foaf.df
+item4.X-ABLabel:FOAF
+item5.X-ABRELATEDNAMES;type=pref:Jane Doe
+item5.X-ABLabel:_$!<Friend>!$_
+CATEGORIES:Work,Test group
+X-ABUID:5AD380FD-B2DE-4261-BA99-DE1D1DB52FBE\:ABPerson
+END:VCARD
+begin:vcard
+source:ldap://cn=Meister%20Berger,o=Universitaet%20Goerlitz,c=DE
+name:Meister Berger
+fn:Meister Berger
+n:Berger;Meister
+bday;value=date:1963-09-21
+o:Universit=E6t G=F6rlitz
+title:Mayor
+title;language=de;value=text:Burgermeister
+note:The Mayor of the great city of
+  Görlitz in the great country of Germany.
+email;internet:mb@goerlitz.de
+home.tel;type=fax,voice,msg:+49 3581 123456
+home.label:Hufenshlagel 1234\n
+ 02828 Goerlitz\n
+ Deutschland
+key;type=X509;encoding=b:MIICajCCAdOgAwIBAgICBEUwDQYJKoZIhvcNAQEEBQ
+ AwdzELMAkGA1UEBhMCVVMxLDAqBgNVBAoTI05ldHNjYXBlIENvbW11bmljYXRpb25zI
+ ENvcnBvcmF0aW9uMRwwGgYDVQQLExNJbmZvcm1hdGlvbiBTeXN0ZW1zMRwwGgYDVQQD
+ ExNyb290Y2EubmV0c2NhcGUuY29tMB4XDTk3MDYwNjE5NDc1OVoXDTk3MTIwMzE5NDc
+ 1OVowgYkxCzAJBgNVBAYTAlVTMSYwJAYDVQQKEx1OZXRzY2FwZSBDb21tdW5pY2F0aW
+ 9ucyBDb3JwLjEYMBYGA1UEAxMPVGltb3RoeSBBIEhvd2VzMSEwHwYJKoZIhvcNAQkBF
+ hJob3dlc0BuZXRzY2FwZS5jb20xFTATBgoJkiaJk/IsZAEBEwVob3dlczBcMA0GCSqG
+ SIb3DQEBAQUAA0sAMEgCQQC0JZf6wkg8pLMXHHCUvMfL5H6zjSk4vTTXZpYyrdN2dXc
+ oX49LKiOmgeJSzoiFKHtLOIboyludF90CgqcxtwKnAgMBAAGjNjA0MBEGCWCGSAGG+E
+ IBAQQEAwIAoDAfBgNVHSMEGDAWgBT84FToB/GV3jr3mcau+hUMbsQukjANBgkqhkiG9
+ w0BAQQFAAOBgQBexv7o7mi3PLXadkmNP9LcIPmx93HGp0Kgyx1jIVMyNgsemeAwBM+M
+ SlhMfcpbTrONwNjZYW8vJDSoi//yrZlVt9bJbs7MNYZVsyF1unsqaln4/vy6Uawfg8V
+ UMk1U7jt8LYpo4YULU7UZHPYVUaSgVttImOHZIKi4hlPXBOhcUQ==
+end:vcard
+BEGIN:VCARD
+FN:Rene van der Harten
+N:van der Harten;Rene;J.;Sir;R.D.O.N.
+SORT-STRING:Harten
+END:VCARD
+BEGIN:VCARD
+FN:Robert Pau Shou Chang
+N:Pau;Shou Chang;Robert
+SORT-STRING:Pau
+END:VCARD
+BEGIN:VCARD
+FN:Osamu Koura
+N:Koura;Osamu
+SORT-STRING:Koura
+END:VCARD
+BEGIN:VCARD
+FN:Oscar del Pozo
+N:del Pozo Triscon;Oscar
+SORT-STRING:Pozo
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Gump;Forrest;;Mr.
+FN:Forrest Gump
+ORG:Bubba Gump Shrimp Co.
+TITLE:Shrimp Man
+PHOTO;GIF:http://www.example.com/dir_photos/my_photo.gif
+TEL;WORK;VOICE:(111) 555-1212
+TEL;HOME;VOICE:(404) 555-1212
+ADR;WORK;PREF:;;100 Waters Edge;Baytown;LA;30314;United States of America
+LABEL;WORK;PREF;ENCODING=QUOTED-PRINTABLE;CHARSET=UTF-8:100 Waters Edge=0D=
+ =0ABaytown\, LA 30314=0D=0AUnited States of America
+ADR;HOME:;;42 Plantation St.;Baytown;LA;30314;United States of America
+LABEL;HOME;ENCODING=QUOTED-PRINTABLE;CHARSET=UTF-8:42 Plantation St.=0D=0A=
+ Baytown, LA 30314=0D=0AUnited States of America
+EMAIL:forrestgump@example.com
+REV:20080424T195243Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Mustermann;Erika;Brünhilde;Dr.;
+FN:Dr. Erika Mustermann
+ORG:Wikimedia
+ROLE:Kommunikation
+TITLE:Redaktion & Gestaltung
+PHOTO;VALUE=URL;TYPE=JPEG:http://commons.wikimedia.org/wiki/File:Erika_Mustermann_2010.jpg
+TEL;TYPE=WORK,VOICE:+49 221 9999123
+TEL;TYPE=HOME,VOICE:+49 221 1234567
+ADR;TYPE=HOME:;;Heidestraße 17;Köln;;51147;Germany
+EMAIL;TYPE=PREF,INTERNET:erika@mustermann.de
+URL:http://de.wikipedia.org/
+REV:2014-03-01T22:11:10Z
+END:VCARD
+

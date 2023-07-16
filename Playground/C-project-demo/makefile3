@@ -1,0 +1,39 @@
+# PROJECT:     Shell Script Course
+# DESCRIPTION: Build the C-demo-project
+# LANGUAGE:    gnu make
+
+.PHONY: all clean
+
+CC=gcc
+CFLAGS=-Wall -g
+LD=gcc
+
+OBJECTS=main.o module1.o
+
+all: main.exe
+
+%.o : %.c %.h general.h
+	@echo "Target '$@' depends on '$^'. Main source is '$<'. Newer is: '$?'."
+	$(CC) -c $(CFLAGS) $< -o $@
+
+main.o : main.c main.h module1.h general.h
+	@echo "TARGET '$@' depends on '$^'. Newer is: '$?'."
+	$(CC) -c $(CFLAGS) main.c
+	
+main.exe: $(OBJECTS)
+	$(LD) -o main.exe $(OBJECTS)
+	ls -l main.exe
+
+clean: 
+	-rm main.exe $(OBJECTS)
+
+ZIPFILE=C-demo-project_$(shell date +%Y%m%d).zip
+.PHONY : zip
+zip: $(ZIPFILE)
+$(ZIPFILE) : $(wildcard *.c *.h makefile*)
+	zip $@ $^
+
+info:
+	@echo CURDIR=$(CURDIR)
+	@echo MAKEFILE_LIST=$(MAKEFILE_LIST)
+	@echo Project directory: $(notdir $(shell pwd))

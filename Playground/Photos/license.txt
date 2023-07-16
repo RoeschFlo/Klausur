@@ -1,0 +1,13 @@
+Alle Bilder in diesem Verzeichnis wurden am 2.Nov.2019 heruntergeladen von http://pixabay.com.
+
+Sie stehen unter der  Pixabay License: "Free for commercial use, No attribution required."
+
+Durch Eingabe der Bildnummer, die jeder Bildname enthält, in die Suchmaske von pixabay 
+gelangt man auf die Download-Seite mit allen Urheber-Informationen.
+
+Die Dateinamen wurden z.T. geändert (nicht aber die Bildnummern).
+
+Die Bilder wurden z.T. verkleinert, um Speicherplatz zu sparen.
+
+
+

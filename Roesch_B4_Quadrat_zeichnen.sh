@@ -3,6 +3,9 @@
 #Author: Rösch Florian
 #Name: B.4 Quadrat Zeichen
 #Date:07.14.2023 (m.d.y)
+#This scrips draws a quadrat of stars "*" on your terminal output
+#You can determine the side length in the unit number of stars
+
 
 if [ $# -ne 1 ]; then
     echo "Bitte geben Sie genau einen Parameter an."
