@@ -1,7 +1,0 @@
-Lieber $VORNAME,
-
-bitte kommen am $DATUM zur Besprechung in Raum $RAUM.
-
-LG
-
-
